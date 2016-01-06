@@ -60,10 +60,8 @@
 		B976388C1C3C990D0015F7B8 /* Parse Object */ = {
 			isa = PBXGroup;
 			children = (
-				B97638901C3C990D0015F7B8 /* AppDelegate.h */,
-				B97638911C3C990D0015F7B8 /* AppDelegate.m */,
-				B97638931C3C990D0015F7B8 /* ViewController.h */,
-				B97638941C3C990D0015F7B8 /* ViewController.m */,
+				B97638A71C3C992A0015F7B8 /* Main */,
+				B97638A81C3C99310015F7B8 /* Controllers */,
 				B97638961C3C990D0015F7B8 /* Main.storyboard */,
 				B976389C1C3C990D0015F7B8 /* Assets.xcassets */,
 				B976389E1C3C990D0015F7B8 /* LaunchScreen.storyboard */,
@@ -80,6 +78,24 @@
 				B976388E1C3C990D0015F7B8 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B97638A71C3C992A0015F7B8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B97638901C3C990D0015F7B8 /* AppDelegate.h */,
+				B97638911C3C990D0015F7B8 /* AppDelegate.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		B97638A81C3C99310015F7B8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B97638931C3C990D0015F7B8 /* ViewController.h */,
+				B97638941C3C990D0015F7B8 /* ViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
