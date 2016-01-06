@@ -1,19 +1,15 @@
 //
-//  ViewController.h
+//  Parser.h
 //  Parse Object
 //
 //  Created by LI Leonel G. Pérez Ramos on 05/01/16.
 //  Copyright © 2016 LI Leonel G. Pérez Ramos. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import "WebServices.h"
+#import <Foundation/Foundation.h>
 #import "Declarations.h"
-#import "Parser.h"
 
-@interface ViewController : UIViewController
-
-
+@interface Parser : NSObject
++ (ObjectResponse *)parseRegisterObject;
++ (ObjectResponse *)parseZoneObject;
 @end
-
-
